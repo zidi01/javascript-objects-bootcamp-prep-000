@@ -7,7 +7,7 @@ function updatePlaylist(playlist, artistName, songTitle) { //
 }
 
 function removeFromPlaylist(playlist, artistName) { // 
-  var out = 'Slowdive';
+  let out = {'Slowdive': "Alison"};
   delete playlist.out;
   return playlist;
 }
