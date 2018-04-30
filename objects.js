@@ -3,11 +3,11 @@ var playlist = {['Slowdive']: "Alison",
 }
 
 function updatePlaylist(playlist, artistName, songTitle) { // 
-  return Object.assign(playlist, {['Phil Ochs']: "Here's to the State of Mississippi"});
+  return Object.assign(playlist, {['Phil Ochs']: "Here's to the State of Mississippi"}); // assign({}, playlist >> assign(playlist
 }
 
-function removeFromPlaylist(playlist, artistName) { // 
-  delete playlist['Slowdive'];
+function removeFromPlaylist(playlist, artistName) { 
+  delete playlist['Slowdive']; // square brackets way
   return playlist;
 }
 
